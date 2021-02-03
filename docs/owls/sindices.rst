@@ -34,6 +34,11 @@ If you use these S-index measurements in your work, please reach out to
             </tr>
             <tr>
               <th rowspan="6" valign="top">55 Cnc</th>
+              <th>2020-10-31 11:37:48.660691</th>
+              <td>0.008626</td>
+              <td>0.000022</td>
+            </tr>
+            <tr>
               <th>2020-10-31 11:47:14.239398</th>
               <td>0.008620</td>
               <td>0.000022</td>
@@ -57,27 +62,6 @@ If you use these S-index measurements in your work, please reach out to
               <th>2021-01-05 10:53:48.079681</th>
               <td>0.008641</td>
               <td>0.000035</td>
-            </tr>
-            <tr>
-              <th>2021-01-05 10:58:21.690347</th>
-              <td>0.008568</td>
-              <td>0.000034</td>
-            </tr>
-            <tr>
-              <th rowspan="3" valign="top"></th>
-              <th>2020-09-27 01:03:14.228987</th>
-              <td>0.037536</td>
-              <td>0.000129</td>
-            </tr>
-            <tr>
-              <th>2020-09-27 01:05:54.898001</th>
-              <td>0.038403</td>
-              <td>0.000131</td>
-            </tr>
-            <tr>
-              <th>2020-10-02 12:53:34.444001</th>
-              <td>0.037670</td>
-              <td>0.000131</td>
             </tr>
             <tr>
               <th>BD+20 594</th>
@@ -106,7 +90,7 @@ If you use these S-index measurements in your work, please reach out to
             <tr>
               <th>HAT-P-14</th>
               <th>2020-06-07 06:32:42.519832</th>
-              <td>0.007913</td>
+              <td>0.007911</td>
               <td>0.000041</td>
             </tr>
             <tr>
@@ -148,13 +132,13 @@ If you use these S-index measurements in your work, please reach out to
             <tr>
               <th>HD 119130</th>
               <th>2020-06-07 04:02:40.300787</th>
-              <td>0.008057</td>
+              <td>0.008054</td>
               <td>0.000065</td>
             </tr>
             <tr>
               <th>HD 149026</th>
               <th>2020-06-07 06:08:14.181226</th>
-              <td>0.007286</td>
+              <td>0.007283</td>
               <td>0.000034</td>
             </tr>
             <tr>
@@ -222,12 +206,12 @@ If you use these S-index measurements in your work, please reach out to
             <tr>
               <th rowspan="2" valign="top">HD106315</th>
               <th>2020-06-07 03:18:57.070638</th>
-              <td>0.013865</td>
+              <td>0.013862</td>
               <td>0.000439</td>
             </tr>
             <tr>
               <th>2020-06-07 03:33:37.880626</th>
-              <td>0.008237</td>
+              <td>0.008234</td>
               <td>0.000042</td>
             </tr>
             <tr>
@@ -333,6 +317,12 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.000381</td>
             </tr>
             <tr>
+              <th>K2-77</th>
+              <th>2020-10-06 10:20:40.871027</th>
+              <td>0.026567</td>
+              <td>0.000347</td>
+            </tr>
+            <tr>
               <th>KELT-18</th>
               <th>2020-09-29 02:30:40.760337</th>
               <td>0.012009</td>
@@ -425,7 +415,7 @@ If you use these S-index measurements in your work, please reach out to
             <tr>
               <th>TrES-4</th>
               <th>2020-06-07 06:59:17.791284</th>
-              <td>0.006849</td>
+              <td>0.006847</td>
               <td>0.000121</td>
             </tr>
             <tr>
@@ -449,7 +439,7 @@ If you use these S-index measurements in your work, please reach out to
             <tr>
               <th>WASP-113</th>
               <th>2020-06-07 05:11:03.759921</th>
-              <td>0.007113</td>
+              <td>0.007110</td>
               <td>0.000126</td>
             </tr>
             <tr>
@@ -473,7 +463,7 @@ If you use these S-index measurements in your work, please reach out to
             <tr>
               <th>WASP-14</th>
               <th>2020-06-07 04:35:19.028525</th>
-              <td>0.007523</td>
+              <td>0.007520</td>
               <td>0.000049</td>
             </tr>
             <tr>
@@ -485,7 +475,7 @@ If you use these S-index measurements in your work, please reach out to
             <tr>
               <th>WASP-38</th>
               <th>2020-06-07 05:44:56.130712</th>
-              <td>0.007300</td>
+              <td>0.007296</td>
               <td>0.000036</td>
             </tr>
             <tr>
@@ -535,6 +525,18 @@ If you use these S-index measurements in your work, please reach out to
               <th>2021-01-05 08:14:59.059953</th>
               <td>0.007636</td>
               <td>0.000046</td>
+            </tr>
+            <tr>
+              <th>CoRoT-7</th>
+              <th>2020-10-06 11:29:06.901421</th>
+              <td>0.076648</td>
+              <td>0.001090</td>
+            </tr>
+            <tr>
+              <th>GJ 3470</th>
+              <th>2020-10-06 12:09:53.606879</th>
+              <td>0.013199</td>
+              <td>0.000092</td>
             </tr>
             <tr>
               <th>hat-p-20</th>
