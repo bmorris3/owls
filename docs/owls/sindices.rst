@@ -4,11 +4,8 @@ S-Indices
 The :math:`S`-index measurements for planet hosting stars are listed below, with
 the date and time of observation, and the uncertainty in the S-index.
 
-.. bokeh-plot::
-
-
-
-
+.. bokeh-plot:: owls/figures/bp.py
+    :source-position: none
 
 If you use these S-index measurements in your work, please reach out to
 `Brett <mailto:morrisbrettm@gmail.com>`_ to arrange citations of this database.
