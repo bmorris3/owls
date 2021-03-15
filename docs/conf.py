@@ -34,7 +34,8 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx_automodapi.automodapi',
     'sphinx_automodapi.smart_resolver',
-    'bokeh.sphinxext.bokeh_plot'
+    'bokeh.sphinxext.bokeh_plot',
+    'altair.sphinxext.altairplot'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
