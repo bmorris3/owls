@@ -174,6 +174,12 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.032333</td>
             </tr>
             <tr>
+              <th>HAT P 22</th>
+              <th>2021-03-21 04:59:42.920162</th>
+              <td>0.188405</td>
+              <td>0.007982</td>
+            </tr>
+            <tr>
               <th>HAT-P-13</th>
               <th>2021-01-06 08:31:23.509330</th>
               <td>0.146181</td>
@@ -228,10 +234,68 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.007454</td>
             </tr>
             <tr>
+              <th>HD 100563</th>
+              <th>2021-03-21 05:46:19.330462</th>
+              <td>0.222784</td>
+              <td>0.009206</td>
+            </tr>
+            <tr>
+              <th>HD 103095</th>
+              <th>2021-03-21 05:56:04.760439</th>
+              <td>0.203745</td>
+              <td>0.008517</td>
+            </tr>
+            <tr>
+              <th>HD 106315</th>
+              <th>2021-03-21 06:14:33.179130</th>
+              <td>0.181441</td>
+              <td>0.007636</td>
+            </tr>
+            <tr>
+              <th rowspan="2" valign="top">HD 114710</th>
+              <th>2021-03-21 06:29:16.289086</th>
+              <td>0.216175</td>
+              <td>0.008948</td>
+            </tr>
+            <tr>
+              <th>2021-03-21 06:32:55.149778</th>
+              <td>0.216515</td>
+              <td>0.008949</td>
+            </tr>
+            <tr>
+              <th>HD 115404</th>
+              <th>2021-03-21 06:38:03.119984</th>
+              <td>0.539176</td>
+              <td>0.022165</td>
+            </tr>
+            <tr>
+              <th>HD 115617</th>
+              <th>2021-03-21 07:05:14.239682</th>
+              <td>0.185896</td>
+              <td>0.007993</td>
+            </tr>
+            <tr>
               <th>HD 119130</th>
               <th>2020-06-07 04:02:40.300787</th>
               <td>0.181205</td>
               <td>0.007835</td>
+            </tr>
+            <tr>
+              <th>HD 129333</th>
+              <th>2021-03-21 06:48:28.630089</th>
+              <td>0.617250</td>
+              <td>0.025327</td>
+            </tr>
+            <tr>
+              <th rowspan="2" valign="top">HD 131156A</th>
+              <th>2021-03-21 06:55:14.710928</th>
+              <td>0.467902</td>
+              <td>0.019126</td>
+            </tr>
+            <tr>
+              <th>2021-03-21 06:59:48.478866</th>
+              <td>1.298955</td>
+              <td>0.054479</td>
             </tr>
             <tr>
               <th>HD 149026</th>
@@ -284,10 +348,46 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.012300</td>
             </tr>
             <tr>
+              <th>HD 25998</th>
+              <th>2021-03-21 03:25:52.870676</th>
+              <td>0.323514</td>
+              <td>0.013260</td>
+            </tr>
+            <tr>
+              <th>HD 26913</th>
+              <th>2021-03-21 01:49:28.069263</th>
+              <td>0.399510</td>
+              <td>0.016431</td>
+            </tr>
+            <tr>
+              <th>HD 26923</th>
+              <th>2021-03-21 01:56:36.919964</th>
+              <td>0.291619</td>
+              <td>0.011974</td>
+            </tr>
+            <tr>
+              <th>HD 29645</th>
+              <th>2021-03-21 03:30:33.689672</th>
+              <td>0.165467</td>
+              <td>0.007050</td>
+            </tr>
+            <tr>
               <th>HD 3167</th>
               <th>2020-08-02 08:50:10.031444</th>
               <td>0.199570</td>
               <td>0.008712</td>
+            </tr>
+            <tr>
+              <th>HD 76151</th>
+              <th>2021-03-21 04:25:04.249361</th>
+              <td>0.251013</td>
+              <td>0.010357</td>
+            </tr>
+            <tr>
+              <th>HD 78366</th>
+              <th>2021-03-21 05:19:06.119888</th>
+              <td>0.245046</td>
+              <td>0.010087</td>
             </tr>
             <tr>
               <th>HD 80606</th>
@@ -296,10 +396,33 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.007444</td>
             </tr>
             <tr>
+              <th rowspan="2" valign="top">HD 81809</th>
+              <th>2021-03-21 04:32:13.849163</th>
+              <td>0.181268</td>
+              <td>0.007608</td>
+            </tr>
+            <tr>
+              <th>2021-03-21 04:37:06.098876</th>
+              <td>0.181762</td>
+              <td>0.007638</td>
+            </tr>
+            <tr>
+              <th>HD 82443</th>
+              <th>2021-03-21 05:26:03.520038</th>
+              <td>0.684957</td>
+              <td>0.028055</td>
+            </tr>
+            <tr>
               <th>HD 89345</th>
               <th>2021-01-06 10:11:02.791121</th>
               <td>0.164773</td>
               <td>0.007134</td>
+            </tr>
+            <tr>
+              <th>HD 95735</th>
+              <th>2021-03-21 05:39:11.189071</th>
+              <td>0.350931</td>
+              <td>0.014540</td>
             </tr>
             <tr>
               <th rowspan="2" valign="top">HD 97658</th>
@@ -328,6 +451,12 @@ If you use these S-index measurements in your work, please reach out to
               <th>2020-09-27 07:04:03.779634</th>
               <td>0.546260</td>
               <td>0.022826</td>
+            </tr>
+            <tr>
+              <th>HD32147</th>
+              <th>2021-03-21 02:12:53.790345</th>
+              <td>0.375151</td>
+              <td>0.015870</td>
             </tr>
             <tr>
               <th>HD80653</th>
@@ -544,6 +673,22 @@ If you use these S-index measurements in your work, please reach out to
               <th>2020-09-27 06:02:51.680260</th>
               <td>0.289933</td>
               <td>0.012397</td>
+            </tr>
+            <tr>
+              <th rowspan="3" valign="top">Procyon</th>
+              <th>2021-03-21 03:36:03.109531</th>
+              <td>0.189907</td>
+              <td>0.007909</td>
+            </tr>
+            <tr>
+              <th>2021-03-21 03:39:22.349649</th>
+              <td>0.188702</td>
+              <td>0.007868</td>
+            </tr>
+            <tr>
+              <th>2021-03-21 03:44:12.070467</th>
+              <td>0.190781</td>
+              <td>0.007955</td>
             </tr>
             <tr>
               <th>Qatar 6</th>
