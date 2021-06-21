@@ -174,6 +174,12 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.043894</td>
             </tr>
             <tr>
+              <th>GJ 699</th>
+              <th>2021-06-21 06:07:59.939058</th>
+              <td>0.952527</td>
+              <td>0.041562</td>
+            </tr>
+            <tr>
               <th rowspan="2" valign="top">GJ649</th>
               <th>2021-05-25 10:43:06.568335</th>
               <td>1.730791</td>
@@ -364,6 +370,24 @@ If you use these S-index measurements in your work, please reach out to
               <th>2020-10-02 09:33:55.250477</th>
               <td>0.158136</td>
               <td>0.006784</td>
+            </tr>
+            <tr>
+              <th>HD 178428</th>
+              <th>2021-06-21 08:12:38.830176</th>
+              <td>0.158845</td>
+              <td>0.006855</td>
+            </tr>
+            <tr>
+              <th>HD 182572</th>
+              <th>2021-06-21 08:18:29.011097</th>
+              <td>0.145069</td>
+              <td>0.006308</td>
+            </tr>
+            <tr>
+              <th>HD 187013</th>
+              <th>2021-06-21 07:49:48.570258</th>
+              <td>0.158824</td>
+              <td>0.008071</td>
             </tr>
             <tr>
               <th rowspan="2" valign="top">HD 189733</th>
@@ -843,6 +867,18 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.013459</td>
             </tr>
             <tr>
+              <th>TOI 1450</th>
+              <th>2021-06-21 07:13:53.019850</th>
+              <td>0.826004</td>
+              <td>0.045725</td>
+            </tr>
+            <tr>
+              <th>TOI 1453</th>
+              <th>2021-06-21 04:39:48.190453</th>
+              <td>0.394933</td>
+              <td>0.020147</td>
+            </tr>
+            <tr>
               <th>TOI 1643</th>
               <th>2021-06-06 10:59:52.340349</th>
               <td>0.763772</td>
@@ -933,16 +969,34 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.018326</td>
             </tr>
             <tr>
+              <th>TOI 2133</th>
+              <th>2021-06-21 05:12:23.160658</th>
+              <td>1.312201</td>
+              <td>0.067492</td>
+            </tr>
+            <tr>
               <th>TOI 2134</th>
               <th>2021-06-06 10:11:27.338202</th>
               <td>0.661764</td>
               <td>0.031280</td>
             </tr>
             <tr>
+              <th>TOI 2274</th>
+              <th>2021-06-21 06:41:01.080676</th>
+              <td>1.647920</td>
+              <td>0.082087</td>
+            </tr>
+            <tr>
               <th>TOI 2279.01</th>
               <th>2021-05-29 10:16:38.748864</th>
               <td>0.670456</td>
               <td>0.028241</td>
+            </tr>
+            <tr>
+              <th>TOI 2318</th>
+              <th>2021-06-21 05:39:00.631011</th>
+              <td>0.475511</td>
+              <td>0.020123</td>
             </tr>
             <tr>
               <th>TOI2013.01</th>
