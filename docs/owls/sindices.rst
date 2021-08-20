@@ -84,48 +84,6 @@ If you use these S-index measurements in your work, please reach out to
           </thead>
           <tbody>
             <tr>
-              <th>2MASSJ17122552+3343384</th>
-              <th>2020-07-06 07:09:54.679400</th>
-              <td>1.435457</td>
-              <td>0.059106</td>
-            </tr>
-            <tr>
-              <th rowspan="7" valign="top">55 Cnc</th>
-              <th>2021-01-05 10:49:13.649104</th>
-              <td>0.192278</td>
-              <td>0.008063</td>
-            </tr>
-            <tr>
-              <th>2021-02-06 07:49:31.050900</th>
-              <td>0.193850</td>
-              <td>0.008084</td>
-            </tr>
-            <tr>
-              <th>2021-02-06 07:57:14.219702</th>
-              <td>0.192995</td>
-              <td>0.008053</td>
-            </tr>
-            <tr>
-              <th>2021-02-06 08:04:49.139020</th>
-              <td>0.193199</td>
-              <td>0.008061</td>
-            </tr>
-            <tr>
-              <th>2021-02-20 08:41:26.069007</th>
-              <td>0.199105</td>
-              <td>0.008293</td>
-            </tr>
-            <tr>
-              <th>2021-02-20 08:49:05.939054</th>
-              <td>0.199017</td>
-              <td>0.008292</td>
-            </tr>
-            <tr>
-              <th>2021-02-20 08:56:39.570993</th>
-              <td>0.198386</td>
-              <td>0.008269</td>
-            </tr>
-            <tr>
               <th>AD Leo</th>
               <th>2021-02-06 08:39:31.507770</th>
               <td>9.469713</td>
@@ -249,12 +207,6 @@ If you use these S-index measurements in your work, please reach out to
               <th>2020-08-02 08:16:13.859024</th>
               <td>0.198598</td>
               <td>0.009290</td>
-            </tr>
-            <tr>
-              <th>HAT-P-8</th>
-              <th>2020-09-29 07:06:48.760433</th>
-              <td>0.154384</td>
-              <td>0.007454</td>
             </tr>
             <tr>
               <th>HD 100563</th>
@@ -384,6 +336,17 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.006308</td>
             </tr>
             <tr>
+              <th rowspan="2" valign="top">HD 185144</th>
+              <th>2021-08-20 07:52:45.230575</th>
+              <td>0.233166</td>
+              <td>0.009624</td>
+            </tr>
+            <tr>
+              <th>2021-08-20 07:57:19.730313</th>
+              <td>0.242046</td>
+              <td>0.009970</td>
+            </tr>
+            <tr>
               <th>HD 187013</th>
               <th>2021-06-21 07:49:48.570258</th>
               <td>0.158824</td>
@@ -399,6 +362,30 @@ If you use these S-index measurements in your work, please reach out to
               <th>2020-07-02 08:52:17.278752</th>
               <td>0.600969</td>
               <td>0.025585</td>
+            </tr>
+            <tr>
+              <th>HD 190007</th>
+              <th>2021-08-20 08:03:06.850096</th>
+              <td>0.733033</td>
+              <td>0.030999</td>
+            </tr>
+            <tr>
+              <th>HD 190360</th>
+              <th>2021-08-20 08:46:36.240690</th>
+              <td>0.160375</td>
+              <td>0.006865</td>
+            </tr>
+            <tr>
+              <th>HD 201091</th>
+              <th>2021-08-20 08:52:43.058777</th>
+              <td>0.550689</td>
+              <td>0.022532</td>
+            </tr>
+            <tr>
+              <th>HD 201092</th>
+              <th>2021-08-20 08:57:23.671297</th>
+              <td>1.183345</td>
+              <td>0.049896</td>
             </tr>
             <tr>
               <th rowspan="2" valign="top">HD 209458</th>
@@ -849,10 +836,28 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.050740</td>
             </tr>
             <tr>
+              <th>TOI 1280</th>
+              <th>2021-08-20 08:26:17.039056</th>
+              <td>0.138575</td>
+              <td>0.006418</td>
+            </tr>
+            <tr>
+              <th>TOI 1301</th>
+              <th>2021-08-20 07:33:10.070504</th>
+              <td>0.632933</td>
+              <td>0.029121</td>
+            </tr>
+            <tr>
               <th>TOI 1346.01</th>
               <th>2021-05-29 10:49:52.579208</th>
               <td>0.592349</td>
               <td>0.026115</td>
+            </tr>
+            <tr>
+              <th>TOI 1410</th>
+              <th>2021-08-20 09:16:28.349457</th>
+              <td>0.460530</td>
+              <td>0.020125</td>
             </tr>
             <tr>
               <th>TOI 1411</th>
@@ -867,6 +872,12 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.013459</td>
             </tr>
             <tr>
+              <th>TOI 1424</th>
+              <th>2021-08-20 09:49:12.568817</th>
+              <td>0.450897</td>
+              <td>0.019939</td>
+            </tr>
+            <tr>
               <th>TOI 1450</th>
               <th>2021-06-21 07:13:53.019850</th>
               <td>0.826004</td>
@@ -877,6 +888,12 @@ If you use these S-index measurements in your work, please reach out to
               <th>2021-06-21 04:39:48.190453</th>
               <td>0.394933</td>
               <td>0.020147</td>
+            </tr>
+            <tr>
+              <th>TOI 1544</th>
+              <th>2021-08-20 10:22:02.200218</th>
+              <td>0.184665</td>
+              <td>0.008818</td>
             </tr>
             <tr>
               <th>TOI 1643</th>
@@ -943,6 +960,17 @@ If you use these S-index measurements in your work, please reach out to
               <th>2021-02-20 10:19:53.639620</th>
               <td>0.710629</td>
               <td>0.032573</td>
+            </tr>
+            <tr>
+              <th rowspan="2" valign="top">TOI 2009</th>
+              <th>2021-08-20 11:15:04.987863</th>
+              <td>0.717688</td>
+              <td>0.030538</td>
+            </tr>
+            <tr>
+              <th>2021-08-20 11:23:15.319100</th>
+              <td>0.692083</td>
+              <td>0.029071</td>
             </tr>
             <tr>
               <th>TOI 2018</th>
