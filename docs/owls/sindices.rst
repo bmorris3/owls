@@ -438,12 +438,6 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.006933</td>
             </tr>
             <tr>
-              <th>HAT-P-20</th>
-              <th>2020-10-02 12:33:58.780814</th>
-              <td>0.729760</td>
-              <td>0.029793</td>
-            </tr>
-            <tr>
               <th>HAT-P-22</th>
               <th>2021-03-21 04:59:42.920162</th>
               <td>0.188405</td>
@@ -471,6 +465,12 @@ If you use these S-index measurements in your work, please reach out to
               <th>2021-10-29 05:52:29.889708</th>
               <td>0.200584</td>
               <td>0.008416</td>
+            </tr>
+            <tr>
+              <th>HAT-P-8</th>
+              <th>2021-11-13 05:59:13.331052</th>
+              <td>0.166086</td>
+              <td>0.007150</td>
             </tr>
             <tr>
               <th>HD 100563</th>
@@ -812,18 +812,18 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.016431</td>
             </tr>
             <tr>
-              <th rowspan="2" valign="top">HD 26923</th>
+              <th>HD 26923</th>
               <th>2021-03-21 01:56:36.919964</th>
               <td>0.291619</td>
               <td>0.011974</td>
             </tr>
             <tr>
+              <th rowspan="2" valign="top">HD 26965</th>
               <th>2021-03-21 02:06:29.030412</th>
               <td>0.229348</td>
               <td>0.009619</td>
             </tr>
             <tr>
-              <th>HD 26965</th>
               <th>2021-08-29 11:39:28.580528</th>
               <td>0.205407</td>
               <td>0.008536</td>
@@ -1047,12 +1047,6 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.012740</td>
             </tr>
             <tr>
-              <th>Hat-P-8</th>
-              <th>2021-11-13 05:59:13.331052</th>
-              <td>0.166086</td>
-              <td>0.007150</td>
-            </tr>
-            <tr>
               <th rowspan="2" valign="top">K2-100</th>
               <th>2021-05-23 02:54:10.590630</th>
               <td>0.378552</td>
@@ -1250,40 +1244,10 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.009987</td>
             </tr>
             <tr>
-              <th>Kelt-8</th>
+              <th>KELT-8</th>
               <th>2020-09-27 02:38:22.839665</th>
               <td>0.170000</td>
               <td>0.007461</td>
-            </tr>
-            <tr>
-              <th>Kepler 37</th>
-              <th>2020-09-27 03:14:01.230159</th>
-              <td>0.229122</td>
-              <td>0.009563</td>
-            </tr>
-            <tr>
-              <th>Kepler 408</th>
-              <th>2020-09-27 03:43:37.030062</th>
-              <td>0.158708</td>
-              <td>0.006773</td>
-            </tr>
-            <tr>
-              <th>Kepler 409</th>
-              <th>2020-09-27 04:12:49.810456</th>
-              <td>0.174710</td>
-              <td>0.007439</td>
-            </tr>
-            <tr>
-              <th>Kepler 410A</th>
-              <th>2021-11-13 01:29:42.750244</th>
-              <td>0.171659</td>
-              <td>0.007279</td>
-            </tr>
-            <tr>
-              <th>Kepler 444</th>
-              <th>2021-11-13 01:56:48.450057</th>
-              <td>0.173306</td>
-              <td>0.007415</td>
             </tr>
             <tr>
               <th>Kepler-102</th>
@@ -1304,16 +1268,45 @@ If you use these S-index measurements in your work, please reach out to
               <td>0.011891</td>
             </tr>
             <tr>
-              <th>Kepler-410A</th>
+              <th>Kepler-37</th>
+              <th>2020-09-27 03:14:01.230159</th>
+              <td>0.229122</td>
+              <td>0.009563</td>
+            </tr>
+            <tr>
+              <th>Kepler-408</th>
+              <th>2020-09-27 03:43:37.030062</th>
+              <td>0.158708</td>
+              <td>0.006773</td>
+            </tr>
+            <tr>
+              <th>Kepler-409</th>
+              <th>2020-09-27 04:12:49.810456</th>
+              <td>0.174710</td>
+              <td>0.007439</td>
+            </tr>
+            <tr>
+              <th rowspan="2" valign="top">Kepler-410A</th>
               <th>2020-09-29 03:42:57.830395</th>
               <td>0.146883</td>
               <td>0.006567</td>
+            </tr>
+            <tr>
+              <th>2021-11-13 01:29:42.750244</th>
+              <td>0.171659</td>
+              <td>0.007279</td>
             </tr>
             <tr>
               <th>Kepler-444,</th>
               <th>2020-07-06 10:40:16.310196</th>
               <td>0.168951</td>
               <td>0.007355</td>
+            </tr>
+            <tr>
+              <th>Kepler-444</th>
+              <th>2021-11-13 01:56:48.450057</th>
+              <td>0.173306</td>
+              <td>0.007415</td>
             </tr>
             <tr>
               <th>Kepler-68</th>
