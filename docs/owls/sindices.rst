@@ -37,7 +37,7 @@ If you use these S-index measurements in your work, please reach out to
     ).add_selection(
         highlight
     ).properties(
-        width=1000,
+        width=600,
         height=600
     )
 
