@@ -7,6 +7,10 @@ the date and time of observation, and the uncertainty in the S-index.
 If you use these S-index measurements in your work, please reach out to
 `Brett <mailto:morrisbrettm@gmail.com>`_ to arrange citations of this database.
 
+
+Interactive plot
+----------------
+
 .. altair-plot::
     :hide-code:
 
@@ -14,12 +18,23 @@ If you use these S-index measurements in your work, please reach out to
     import altair as alt
     import numpy as np
 
+    url = ('https://docs.google.com/spreadsheets/d/'
+             '11Z7B76FXBkEwcGmhp72sC6AQdP8ER8K_eU5RAW8ed2M'
+             '/gviz/tq?tqx=out:csv&sheet=sindices')
+    df = pd.read_csv(url)
+
+    multiple_entries = []
+
+    for i, target in enumerate(df['Target']):
+        multiple_entries.append(i)
+
     input_dropdown = alt.binding_select(
         options=np.unique(df['Target']), name='Target'
     )
-    highlight = alt.selection(
-        type='single', on='click',
-        fields=['Target'], nearest=True, bind=input_dropdown)
+
+    highlight = alt.selection_single(on='click', fields=['Target'],
+        init=dict(Target=False), nearest=True, bind=input_dropdown
+    )
 
     # the base chart
     base = alt.Chart(df[['Date', 'Target', 'S', 'err']].iloc[multiple_entries]).encode(
@@ -60,6 +75,13 @@ If you use these S-index measurements in your work, please reach out to
 
     (errorbars + points + lines + text).interactive()
 
+In the figure above, clicking anywhere on the plot will highlight the nearest
+point and the other measurements in time for that target. You can also select
+a target by its name from the "Target" drop-down menu below the figure.
+
+
+Results
+-------
 
 .. raw:: html
     :file: db.html
