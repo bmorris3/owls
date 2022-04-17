@@ -7,24 +7,40 @@ the date and time of observation, and the uncertainty in the S-index.
 If you use these S-index measurements in your work, please reach out to
 `Brett <mailto:morrisbrettm@gmail.com>`_ to arrange citations of this database.
 
+
+Interactive plot
+----------------
+
 .. altair-plot::
     :hide-code:
 
     import pandas as pd
     import altair as alt
+    import numpy as np
 
     url = ('https://docs.google.com/spreadsheets/d/'
              '11Z7B76FXBkEwcGmhp72sC6AQdP8ER8K_eU5RAW8ed2M'
              '/gviz/tq?tqx=out:csv&sheet=sindices')
     df = pd.read_csv(url)
 
-    highlight = alt.selection(type='single', on='mouseover',
-                              fields=['Target'], nearest=True)
+    multiple_entries = []
+
+    for i, target in enumerate(df['Target']):
+        multiple_entries.append(i)
+
+    input_dropdown = alt.binding_select(
+        options=np.unique(df['Target']), name='Target'
+    )
+
+    highlight = alt.selection_single(on='click', fields=['Target'],
+        init=dict(Target=False), nearest=True, bind=input_dropdown
+    )
+
     # the base chart
-    base = alt.Chart(df[['Date', 'Target', 'S', 'err']]).encode(
+    base = alt.Chart(df[['Date', 'Target', 'S', 'err']].iloc[multiple_entries]).encode(
         x='Date:T',
         y=alt.X('S:Q', scale=alt.Scale(type='log')),
-        color='Target:N'
+        color=alt.Color('Target:N', legend=None),
     ).transform_calculate(
         ymin="datum.S-datum.err",
         ymax="datum.S+datum.err"
@@ -46,12 +62,10 @@ If you use these S-index measurements in your work, please reach out to
         y2="ymax:Q"
     )
 
-
     lines = base.mark_line().encode(
-        size=alt.condition(~highlight, alt.value(3), alt.value(5)),
-        opacity=alt.condition(highlight, alt.value(1), alt.value(0.5))
+        size=alt.condition(~highlight, alt.value(2), alt.value(5)),
+        opacity=alt.condition(highlight, alt.value(1), alt.value(0.))
     )
-
 
     # Draw text labels near the points, and highlight based on selection
     text = lines.mark_text(align='left', dx=5, dy=-5).encode(
@@ -61,6 +75,13 @@ If you use these S-index measurements in your work, please reach out to
 
     (errorbars + points + lines + text).interactive()
 
+In the figure above, clicking anywhere on the plot will highlight the nearest
+point and the other measurements in time for that target. You can also select
+a target by its name from the "Target" drop-down menu below the figure.
+
+
+Results
+-------
 
 .. raw:: html
     :file: db.html
