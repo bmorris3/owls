@@ -1,0 +1,21 @@
+GJ 2069 A
+=========
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th>Date</th>
+         <th>S</th>
+         <th>err</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>1/25/2022 7:36:00</td>
+         <td>6.34</td>
+         <td>0.27</td>
+       </tr>
+     </tbody>
+   </table>

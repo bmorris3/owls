@@ -1,0 +1,26 @@
+HD 76151
+========
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th>Date</th>
+         <th>S</th>
+         <th>err</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>3/21/21 4:25</td>
+         <td>0.237066</td>
+         <td>0.009443</td>
+       </tr>
+       <tr>
+         <td>2/16/22 7:12</td>
+         <td>0.232021</td>
+         <td>0.009310</td>
+       </tr>
+     </tbody>
+   </table>

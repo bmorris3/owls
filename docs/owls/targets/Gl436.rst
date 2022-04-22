@@ -1,0 +1,31 @@
+Gl 436
+======
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th>Date</th>
+         <th>S</th>
+         <th>err</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>6/10/20 4:36 AM</td>
+         <td>0.691196</td>
+         <td>0.030724</td>
+       </tr>
+       <tr>
+         <td>1/6/21 12:21 PM</td>
+         <td>0.754596</td>
+         <td>0.034249</td>
+       </tr>
+       <tr>
+         <td>2/11/22 10:39 AM</td>
+         <td>0.727636</td>
+         <td>0.031511</td>
+       </tr>
+     </tbody>
+   </table>

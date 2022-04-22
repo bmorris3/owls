@@ -17,11 +17,12 @@ sample which reveals how the magnetic activity of exoplanet host stars varies
 with spectral type, planet orbital period, etc.
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
 
   owls/background.rst
   owls/survey.rst
   owls/sindices.rst
+  owls/targets.rst
 
 
 Indices and tables

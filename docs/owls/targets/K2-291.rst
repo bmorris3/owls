@@ -1,0 +1,26 @@
+K2-291
+======
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th>Date</th>
+         <th>S</th>
+         <th>err</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>10/2/20 11:44</td>
+         <td>0.277510</td>
+         <td>0.011225</td>
+       </tr>
+       <tr>
+         <td>9/22/21 11:33</td>
+         <td>0.282781</td>
+         <td>0.011559</td>
+       </tr>
+     </tbody>
+   </table>

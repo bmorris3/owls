@@ -23,6 +23,8 @@ Interactive plot
              '/gviz/tq?tqx=out:csv&sheet=sindices')
     df = pd.read_csv(url)
 
+    df['spacelessnames'] = [line.replace(' ', '') for line in df['Target']]
+
     multiple_entries = []
 
     for i, target in enumerate(df['Target']):
@@ -37,18 +39,20 @@ Interactive plot
     )
 
     # the base chart
-    base = alt.Chart(df[['Date', 'Target', 'S', 'err']].iloc[multiple_entries]).encode(
+    base = alt.Chart(df[['Date', 'Target', 'S', 'err', 'spacelessnames']].iloc[multiple_entries]).encode(
         x='Date:T',
         y=alt.X('S:Q', scale=alt.Scale(type='log')),
         color=alt.Color('Target:N', legend=None),
     ).transform_calculate(
         ymin="datum.S-datum.err",
-        ymax="datum.S+datum.err"
+        ymax="datum.S+datum.err",
+        url=f'https://owls.readthedocs.io/en/latest/owls/targets/' + alt.datum.spacelessnames + '.html'
     )
 
     points = base.mark_circle().encode(
         opacity=alt.condition(highlight, alt.value(1), alt.value(0.5)),
-        size=alt.condition(highlight, alt.value(100), alt.value(50))
+        size=alt.condition(highlight, alt.value(100), alt.value(50)),
+        href='url:N'
     ).add_selection(
         highlight
     ).properties(

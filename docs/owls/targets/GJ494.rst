@@ -1,0 +1,21 @@
+GJ 494
+======
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th>Date</th>
+         <th>S</th>
+         <th>err</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>3/20/2022 7:39:00</td>
+         <td>8.51</td>
+         <td>0.35</td>
+       </tr>
+     </tbody>
+   </table>

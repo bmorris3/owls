@@ -1,0 +1,21 @@
+EPIC211945201
+=============
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th>Date</th>
+         <th>S</th>
+         <th>err</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>2/13/2022 4:26:00</td>
+         <td>0.16</td>
+         <td>0.01</td>
+       </tr>
+     </tbody>
+   </table>

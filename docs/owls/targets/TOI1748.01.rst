@@ -1,0 +1,21 @@
+TOI 1748.01
+===========
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th>Date</th>
+         <th>S</th>
+         <th>err</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>6/6/21 9:16</td>
+         <td>0.761394</td>
+         <td>0.03617</td>
+       </tr>
+     </tbody>
+   </table>

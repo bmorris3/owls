@@ -34,7 +34,6 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx_automodapi.automodapi',
     'sphinx_automodapi.smart_resolver',
-    'bokeh.sphinxext.bokeh_plot',
     'altair.sphinxext.altairplot'
 ]
 
