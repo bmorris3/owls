@@ -52,7 +52,8 @@ Interactive plot
     points = base.mark_circle().encode(
         opacity=alt.condition(highlight, alt.value(1), alt.value(0.5)),
         size=alt.condition(highlight, alt.value(100), alt.value(50)),
-        href='url:N'
+        href='url:N',
+        tooltip='Target:N'
     ).add_selection(
         highlight
     ).properties(
@@ -77,7 +78,7 @@ Interactive plot
         size=alt.value(10)
     )
 
-    (errorbars + points + lines + text).interactive()
+    (errorbars + points + lines + text)
 
 In the figure above, clicking anywhere on the plot will highlight the nearest
 point and the other measurements in time for that target. You can also select

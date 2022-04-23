@@ -1,4 +1,9 @@
 import pandas as pd
+from astroquery.ipac.nexsci.nasa_exoplanet_archive import (
+    NasaExoplanetArchive, conf
+)
+from tqdm.auto import tqdm
+conf.cache = True
 
 urls = [
     ('https://docs.google.com/spreadsheets/d/'
@@ -21,18 +26,85 @@ targets_page = f"""Targets
 
 """
 
+params_to_write_out = [
+    'st_teff', 'st_spectype', 'st_rad', 'st_mass', 'st_rotp',
+    'sy_bmag', 'sy_vmag', 'sy_gaiamag'
+]
+
+aladin_lite = """<!-- include Aladin Lite CSS file in the head section of your page -->
+<link rel="stylesheet" href="https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.css" />
+ 
+<!-- you can skip the following line if your page already integrates the jQuery library -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js" charset="utf-8"></script>
+ 
+<!-- insert this snippet where you want Aladin Lite viewer to appear and after the loading of jQuery -->
+<div id="aladin-lite-div" style="width:400px;height:400px;"></div>
+<script type="text/javascript" src="https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+    var aladin = A.aladin('#aladin-lite-div', {{survey: "P/DSS2/color", fov:0.2, target: "{0}"}});
+</script>"""
+
+query_aliases = False
+
 # Build individual webpages, one per target
-for name, group in df_sinds.groupby('Target'):
+
+pbar = tqdm(df_sinds.groupby('Target'))
+
+for name, group in pbar:
+    pbar.set_description(name)
+
     page[name] = group
+
+    likely_planet_host = any([name.startswith(key)
+                              for key in ['KELT', 'K2', 'Kepler']])
+    if likely_planet_host:
+        if query_aliases:
+            aliases = NasaExoplanetArchive.query_aliases(
+                f"{name.replace('.01', '')}", cache=True
+            )
+        nea = NasaExoplanetArchive.query_object(
+            f"{name.replace('.01', '')} b" if not name.strip().endswith('A')
+            else f"{name[:-1]} b",
+            table="pscomppars", cache=True, regularize=False
+        )
+        if len(nea) > 0:
+            nea_formatted = nea[params_to_write_out].to_pandas().transpose()
+            nea_formatted.columns = [name]
+
+    else:
+        nea = []
 
     with open(f'docs/owls/targets/{name.replace(" ", "")}.rst', 'w') as f:
         f.write(name + '\n' + len(name) * '=' + '\n\n')
+        f.write("`Search exo.mast <https://exo.mast.stsci.edu/exomast_planet.html?planet=" +
+                f"{name.replace(' ', '').replace('-', '').replace('.01', '')}b>`_\n\n")
+        f.write("`Search SIMBAD <http://simbad.cds.unistra.fr/simbad/sim-basic?"+
+                f"Ident={name}&submit=SIMBAD+search>`_\n\n")
+
         f.write(".. raw:: html\n\n")
         f.write('   ' + '\n   '.join(
             group[['Date', 'S', 'err']].to_html(index=False).splitlines()
-        ))
+        ) + '\n\n')
 
-    targets_page += f'  targets/{name.replace(" ", "")}.rst\n'
+        if len(nea) > 0:
+            nea_header = '`NASA Exoplanet Archive <https://exoplanetarchive.ipac.caltech.edu>`_ parameters'
+            f.write(nea_header + '\n' + len(nea_header) * '-' + '\n\n')
+
+            if query_aliases:
+                f.write("Aliases: " + ', '.join(aliases) + '\n\n')
+
+            f.write(".. raw:: html\n\n")
+            f.write('   ' + '\n   '.join(
+                nea_formatted.to_html(index=True).splitlines()
+            ) + '\n\n')
+
+        f.write(".. raw:: html\n\n")
+        f.write('   ' + '\n   '.join(
+            aladin_lite.format(name).splitlines()
+        ) + '\n\n')
+
+    if not name.replace(" ", "") in targets_page:
+        targets_page += f'  targets/{name.replace(" ", "")}.rst\n'
 
 # Write out targets.rst page
 with open(f'docs/owls/targets.rst', 'w') as f:

@@ -8,7 +8,6 @@ Targets
   targets/CoRoT-7.rst
   targets/DSLeo.rst
   targets/EPIC211945201.rst
-  targets/EPIC211945201.rst
   targets/EQPeg.rst
   targets/EVLac.rst
   targets/GJ1054A.rst
@@ -24,8 +23,6 @@ Targets
   targets/GJ29.1.rst
   targets/GJ3203.rst
   targets/GJ3218.rst
-  targets/GJ338A.rst
-  targets/GJ338B.rst
   targets/GJ338A.rst
   targets/GJ338B.rst
   targets/GJ3470.rst
@@ -176,9 +173,7 @@ Targets
   targets/KELT-18.rst
   targets/KELT-2A.rst
   targets/KELT-23A.rst
-  targets/KELT-23A.rst
   targets/KELT-24.rst
-  targets/KELT-2A.rst
   targets/KELT-3.rst
   targets/KELT-4A.rst
   targets/KELT-7.rst
