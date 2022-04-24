@@ -29,6 +29,54 @@ Qatar-8
      </tbody>
    </table>
 
+`NASA Exoplanet Archive <https://exoplanetarchive.ipac.caltech.edu>`_ parameters
+--------------------------------------------------------------------------------
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th></th>
+         <th>Qatar-8</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>st_teff</th>
+         <td>5738</td>
+       </tr>
+       <tr>
+         <th>st_spectype</th>
+         <td>G0 V</td>
+       </tr>
+       <tr>
+         <th>st_rad</th>
+         <td>1.31</td>
+       </tr>
+       <tr>
+         <th>st_mass</th>
+         <td>1.03</td>
+       </tr>
+       <tr>
+         <th>st_rotp</th>
+         <td>NaN</td>
+       </tr>
+       <tr>
+         <th>sy_bmag</th>
+         <td>12.244</td>
+       </tr>
+       <tr>
+         <th>sy_vmag</th>
+         <td>11.71</td>
+       </tr>
+       <tr>
+         <th>sy_gaiamag</th>
+         <td>11.3494</td>
+       </tr>
+     </tbody>
+   </table>
+
 .. raw:: html
 
    <!-- include Aladin Lite CSS file in the head section of your page -->

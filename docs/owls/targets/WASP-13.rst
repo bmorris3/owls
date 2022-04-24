@@ -24,6 +24,54 @@ WASP-13
      </tbody>
    </table>
 
+`NASA Exoplanet Archive <https://exoplanetarchive.ipac.caltech.edu>`_ parameters
+--------------------------------------------------------------------------------
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th></th>
+         <th>WASP-13</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>st_teff</th>
+         <td>5950</td>
+       </tr>
+       <tr>
+         <th>st_spectype</th>
+         <td></td>
+       </tr>
+       <tr>
+         <th>st_rad</th>
+         <td>1.37</td>
+       </tr>
+       <tr>
+         <th>st_mass</th>
+         <td>0.72</td>
+       </tr>
+       <tr>
+         <th>st_rotp</th>
+         <td>NaN</td>
+       </tr>
+       <tr>
+         <th>sy_bmag</th>
+         <td>11.211</td>
+       </tr>
+       <tr>
+         <th>sy_vmag</th>
+         <td>10.424</td>
+       </tr>
+       <tr>
+         <th>sy_gaiamag</th>
+         <td>10.38</td>
+       </tr>
+     </tbody>
+   </table>
+
 .. raw:: html
 
    <!-- include Aladin Lite CSS file in the head section of your page -->

@@ -24,6 +24,54 @@ Wolf 503
      </tbody>
    </table>
 
+`NASA Exoplanet Archive <https://exoplanetarchive.ipac.caltech.edu>`_ parameters
+--------------------------------------------------------------------------------
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th></th>
+         <th>Wolf 503</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>st_teff</th>
+         <td>4716</td>
+       </tr>
+       <tr>
+         <th>st_spectype</th>
+         <td>K3.5 V</td>
+       </tr>
+       <tr>
+         <th>st_rad</th>
+         <td>0.69</td>
+       </tr>
+       <tr>
+         <th>st_mass</th>
+         <td>0.69</td>
+       </tr>
+       <tr>
+         <th>st_rotp</th>
+         <td>NaN</td>
+       </tr>
+       <tr>
+         <th>sy_bmag</th>
+         <td>11.276</td>
+       </tr>
+       <tr>
+         <th>sy_vmag</th>
+         <td>10.27</td>
+       </tr>
+       <tr>
+         <th>sy_gaiamag</th>
+         <td>9.89816</td>
+       </tr>
+     </tbody>
+   </table>
+
 .. raw:: html
 
    <!-- include Aladin Lite CSS file in the head section of your page -->

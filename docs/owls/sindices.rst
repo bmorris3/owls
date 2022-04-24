@@ -1,15 +1,13 @@
 S-Indices
 =========
 
-The :math:`S`-index measurements for planet hosting stars are listed below, with
-the date and time of observation, and the uncertainty in the S-index.
-
 If you use these S-index measurements in your work, please reach out to
-`Brett <mailto:morrisbrettm@gmail.com>`_ to arrange citations of this database.
-
+`Brett <mailto:morrisbrettm@gmail.com>`_ to arrange citations for this database.
 
 Interactive plot
 ----------------
+
+Click a measurement below to find more information about the target.
 
 .. altair-plot::
     :hide-code:
@@ -35,7 +33,7 @@ Interactive plot
     )
 
     highlight = alt.selection_single(on='click', fields=['Target'],
-        init=dict(Target=False), nearest=True, bind=input_dropdown
+        init=dict(Target=False), bind=input_dropdown
     )
 
     # the base chart
@@ -80,13 +78,3 @@ Interactive plot
 
     (errorbars + points + lines + text)
 
-In the figure above, clicking anywhere on the plot will highlight the nearest
-point and the other measurements in time for that target. You can also select
-a target by its name from the "Target" drop-down menu below the figure.
-
-
-Results
--------
-
-.. raw:: html
-    :file: db.html

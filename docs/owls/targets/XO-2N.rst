@@ -29,6 +29,54 @@ XO-2 N
      </tbody>
    </table>
 
+`NASA Exoplanet Archive <https://exoplanetarchive.ipac.caltech.edu>`_ parameters
+--------------------------------------------------------------------------------
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th></th>
+         <th>XO-2 N</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>st_teff</th>
+         <td>5340</td>
+       </tr>
+       <tr>
+         <th>st_spectype</th>
+         <td>K0 V</td>
+       </tr>
+       <tr>
+         <th>st_rad</th>
+         <td>0.99</td>
+       </tr>
+       <tr>
+         <th>st_mass</th>
+         <td>0.97</td>
+       </tr>
+       <tr>
+         <th>st_rotp</th>
+         <td>28.6</td>
+       </tr>
+       <tr>
+         <th>sy_bmag</th>
+         <td>11.947</td>
+       </tr>
+       <tr>
+         <th>sy_vmag</th>
+         <td>11.246</td>
+       </tr>
+       <tr>
+         <th>sy_gaiamag</th>
+         <td>10.9718</td>
+       </tr>
+     </tbody>
+   </table>
+
 .. raw:: html
 
    <!-- include Aladin Lite CSS file in the head section of your page -->

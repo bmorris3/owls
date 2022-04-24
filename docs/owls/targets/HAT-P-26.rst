@@ -24,6 +24,54 @@ HAT-P-26
      </tbody>
    </table>
 
+`NASA Exoplanet Archive <https://exoplanetarchive.ipac.caltech.edu>`_ parameters
+--------------------------------------------------------------------------------
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th></th>
+         <th>HAT-P-26</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>st_teff</th>
+         <td>5079</td>
+       </tr>
+       <tr>
+         <th>st_spectype</th>
+         <td>K1</td>
+       </tr>
+       <tr>
+         <th>st_rad</th>
+         <td>0.87</td>
+       </tr>
+       <tr>
+         <th>st_mass</th>
+         <td>1.12</td>
+       </tr>
+       <tr>
+         <th>st_rotp</th>
+         <td>NaN</td>
+       </tr>
+       <tr>
+         <th>sy_bmag</th>
+         <td>12.326</td>
+       </tr>
+       <tr>
+         <th>sy_vmag</th>
+         <td>11.757</td>
+       </tr>
+       <tr>
+         <th>sy_gaiamag</th>
+         <td>11.4641</td>
+       </tr>
+     </tbody>
+   </table>
+
 .. raw:: html
 
    <!-- include Aladin Lite CSS file in the head section of your page -->

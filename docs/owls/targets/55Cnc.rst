@@ -514,6 +514,54 @@
      </tbody>
    </table>
 
+`NASA Exoplanet Archive <https://exoplanetarchive.ipac.caltech.edu>`_ parameters
+--------------------------------------------------------------------------------
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th></th>
+         <th>55 Cnc</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>st_teff</th>
+         <td>5172</td>
+       </tr>
+       <tr>
+         <th>st_spectype</th>
+         <td>K0 IV-V</td>
+       </tr>
+       <tr>
+         <th>st_rad</th>
+         <td>0.94</td>
+       </tr>
+       <tr>
+         <th>st_mass</th>
+         <td>0.91</td>
+       </tr>
+       <tr>
+         <th>st_rotp</th>
+         <td>38.8</td>
+       </tr>
+       <tr>
+         <th>sy_bmag</th>
+         <td>6.816</td>
+       </tr>
+       <tr>
+         <th>sy_vmag</th>
+         <td>5.95084</td>
+       </tr>
+       <tr>
+         <th>sy_gaiamag</th>
+         <td>5.72973</td>
+       </tr>
+     </tbody>
+   </table>
+
 .. raw:: html
 
    <!-- include Aladin Lite CSS file in the head section of your page -->

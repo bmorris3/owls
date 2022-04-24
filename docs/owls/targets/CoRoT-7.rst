@@ -24,6 +24,54 @@ CoRoT-7
      </tbody>
    </table>
 
+`NASA Exoplanet Archive <https://exoplanetarchive.ipac.caltech.edu>`_ parameters
+--------------------------------------------------------------------------------
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th></th>
+         <th>CoRoT-7</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>st_teff</th>
+         <td>5275</td>
+       </tr>
+       <tr>
+         <th>st_spectype</th>
+         <td>G9 V</td>
+       </tr>
+       <tr>
+         <th>st_rad</th>
+         <td>0.83</td>
+       </tr>
+       <tr>
+         <th>st_mass</th>
+         <td>0.82</td>
+       </tr>
+       <tr>
+         <th>st_rotp</th>
+         <td>NaN</td>
+       </tr>
+       <tr>
+         <th>sy_bmag</th>
+         <td>12.784</td>
+       </tr>
+       <tr>
+         <th>sy_vmag</th>
+         <td>11.728</td>
+       </tr>
+       <tr>
+         <th>sy_gaiamag</th>
+         <td>11.5239</td>
+       </tr>
+     </tbody>
+   </table>
+
 .. raw:: html
 
    <!-- include Aladin Lite CSS file in the head section of your page -->

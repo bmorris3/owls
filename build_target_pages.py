@@ -55,8 +55,8 @@ for name, group in pbar:
 
     page[name] = group
 
-    likely_planet_host = any([name.startswith(key)
-                              for key in ['KELT', 'K2', 'Kepler']])
+    likely_planet_host = all([not name.startswith(key)
+                              for key in ['HD', 'GJ']])
     if likely_planet_host:
         if query_aliases:
             aliases = NasaExoplanetArchive.query_aliases(

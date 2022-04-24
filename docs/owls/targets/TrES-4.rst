@@ -24,6 +24,54 @@ TrES-4
      </tbody>
    </table>
 
+`NASA Exoplanet Archive <https://exoplanetarchive.ipac.caltech.edu>`_ parameters
+--------------------------------------------------------------------------------
+
+.. raw:: html
+
+   <table border="1" class="dataframe">
+     <thead>
+       <tr style="text-align: right;">
+         <th></th>
+         <th>TrES-4</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th>st_teff</th>
+         <td>6200</td>
+       </tr>
+       <tr>
+         <th>st_spectype</th>
+         <td>F8 V</td>
+       </tr>
+       <tr>
+         <th>st_rad</th>
+         <td>1.66</td>
+       </tr>
+       <tr>
+         <th>st_mass</th>
+         <td>1.08</td>
+       </tr>
+       <tr>
+         <th>st_rotp</th>
+         <td>NaN</td>
+       </tr>
+       <tr>
+         <th>sy_bmag</th>
+         <td>12.348</td>
+       </tr>
+       <tr>
+         <th>sy_vmag</th>
+         <td>11.932</td>
+       </tr>
+       <tr>
+         <th>sy_gaiamag</th>
+         <td>11.4731</td>
+       </tr>
+     </tbody>
+   </table>
+
 .. raw:: html
 
    <!-- include Aladin Lite CSS file in the head section of your page -->
