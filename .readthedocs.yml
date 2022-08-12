@@ -21,7 +21,7 @@ build:
     python: "3.7"
   jobs:
     pre_build:
-      - python download_figures.py
+      - python docs/download_figures.py
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
