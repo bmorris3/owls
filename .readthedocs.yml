@@ -5,6 +5,17 @@
 # Required
 version: 2
 
+# Optionally set the version of Python and requirements required to build your docs
+python:
+   version: 3.7
+   install:
+    - requirements: docs/requirements.txt
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
+        - all
+
 build:
   os: ubuntu-22.04
   tools:
@@ -16,14 +27,3 @@ build:
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
    configuration: docs/conf.py
-
-# Optionally set the version of Python and requirements required to build your docs
-python:
-   version: 3.7
-   install:
-    - requirements: docs/requirements.txt
-    - method: pip
-      path: .
-      extra_requirements:
-        - docs
-        - all
