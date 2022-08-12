@@ -44,7 +44,7 @@ K2-222
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>6058</td>
+         <td>6058.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -56,7 +56,7 @@ K2-222
        </tr>
        <tr>
          <th>st_mass</th>
-         <td>1</td>
+         <td>1.0</td>
        </tr>
        <tr>
          <th>st_rotp</th>
@@ -92,3 +92,9 @@ K2-222
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "K2-222"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/K2-222.png
+  :width: 650
+  :alt: K2-222

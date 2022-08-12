@@ -39,3 +39,9 @@ EPIC211945201
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "EPIC211945201"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/EPIC211945201.png
+  :width: 650
+  :alt: EPIC211945201

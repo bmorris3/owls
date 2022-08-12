@@ -39,3 +39,9 @@ GJ 166 C
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "GJ 166 C"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/GJ166C.png
+  :width: 650
+  :alt: GJ166C

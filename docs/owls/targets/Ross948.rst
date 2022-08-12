@@ -39,3 +39,9 @@ Ross 948
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "Ross 948"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/Ross948.png
+  :width: 650
+  :alt: Ross948

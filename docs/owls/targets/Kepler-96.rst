@@ -39,7 +39,7 @@ Kepler-96
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>5690</td>
+         <td>5690.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -51,7 +51,7 @@ Kepler-96
        </tr>
        <tr>
          <th>st_mass</th>
-         <td>1</td>
+         <td>1.0</td>
        </tr>
        <tr>
          <th>st_rotp</th>
@@ -87,3 +87,9 @@ Kepler-96
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "Kepler-96"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/Kepler-96.png
+  :width: 650
+  :alt: Kepler-96

@@ -44,7 +44,7 @@ Kepler-444
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>5046</td>
+         <td>5046.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -72,7 +72,7 @@ Kepler-444
        </tr>
        <tr>
          <th>sy_gaiamag</th>
-         <td>8.64325</td>
+         <td>8.643251</td>
        </tr>
      </tbody>
    </table>
@@ -92,3 +92,9 @@ Kepler-444
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "Kepler-444"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/Kepler-444.png
+  :width: 650
+  :alt: Kepler-444

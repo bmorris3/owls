@@ -44,3 +44,9 @@ DS Leo
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "DS Leo"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/DSLeo.png
+  :width: 650
+  :alt: DSLeo

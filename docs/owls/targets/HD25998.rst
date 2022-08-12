@@ -44,3 +44,9 @@ HD 25998
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "HD 25998"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/HD25998.png
+  :width: 650
+  :alt: HD25998

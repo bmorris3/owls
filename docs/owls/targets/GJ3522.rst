@@ -39,3 +39,9 @@ GJ 3522
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "GJ 3522"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/GJ3522.png
+  :width: 650
+  :alt: GJ3522

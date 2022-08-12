@@ -39,7 +39,7 @@ WASP-38
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>6180</td>
+         <td>6180.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>

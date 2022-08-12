@@ -529,7 +529,7 @@
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>5172</td>
+         <td>5172.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -577,3 +577,9 @@
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "55 Cnc"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/55Cnc.png
+  :width: 650
+  :alt: 55Cnc

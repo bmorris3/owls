@@ -39,3 +39,9 @@ GJ 234A
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "GJ 234A"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/GJ234A.png
+  :width: 650
+  :alt: GJ234A

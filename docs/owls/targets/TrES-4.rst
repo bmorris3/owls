@@ -39,7 +39,7 @@ TrES-4
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>6200</td>
+         <td>6200.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -87,3 +87,9 @@ TrES-4
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "TrES-4"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/TrES-4.png
+  :width: 650
+  :alt: TrES-4

@@ -39,3 +39,9 @@ EV Lac
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "EV Lac"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/EVLac.png
+  :width: 650
+  :alt: EVLac

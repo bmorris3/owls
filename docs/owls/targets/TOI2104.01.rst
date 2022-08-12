@@ -1,5 +1,5 @@
-TOI 2104.01
-===========
+TOI 2104
+========
 
 `Search exo.mast <https://exo.mast.stsci.edu/exomast_planet.html?planet=TOI2104b>`_
 
@@ -46,6 +46,12 @@ TOI 2104.01
    <div id="aladin-lite-div" style="width:400px;height:400px;"></div>
    <script type="text/javascript" src="https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js" charset="utf-8"></script>
    <script type="text/javascript">
-       var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "TOI 2104.01"});
+       var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "TOI 2104"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/TOI2104.png
+  :width: 650
+  :alt: TOI2104

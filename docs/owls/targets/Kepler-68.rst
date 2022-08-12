@@ -87,3 +87,9 @@ Kepler-68
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "Kepler-68"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/Kepler-68.png
+  :width: 650
+  :alt: Kepler-68

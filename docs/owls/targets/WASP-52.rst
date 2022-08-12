@@ -39,7 +39,7 @@ WASP-52
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>5000</td>
+         <td>5000.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>

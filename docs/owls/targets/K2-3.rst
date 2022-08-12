@@ -44,7 +44,7 @@ K2-3
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>3896</td>
+         <td>3896.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -60,7 +60,7 @@ K2-3
        </tr>
        <tr>
          <th>st_rotp</th>
-         <td>40</td>
+         <td>40.0</td>
        </tr>
        <tr>
          <th>sy_bmag</th>
@@ -92,3 +92,9 @@ K2-3
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "K2-3"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/K2-3.png
+  :width: 650
+  :alt: K2-3

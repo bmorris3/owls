@@ -39,3 +39,9 @@ KELT-23A
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "KELT-23A"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/KELT-23A.png
+  :width: 650
+  :alt: KELT-23A

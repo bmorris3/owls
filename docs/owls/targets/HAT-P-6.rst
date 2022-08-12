@@ -44,7 +44,7 @@ HAT-P-6
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>6570</td>
+         <td>6570.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>

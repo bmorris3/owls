@@ -39,7 +39,7 @@ HAT-P-8
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>6200</td>
+         <td>6200.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>

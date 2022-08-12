@@ -39,7 +39,7 @@ HAT-P-33
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>6446</td>
+         <td>6446.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -87,3 +87,9 @@ HAT-P-33
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "HAT-P-33"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/HAT-P-33.png
+  :width: 650
+  :alt: HAT-P-33

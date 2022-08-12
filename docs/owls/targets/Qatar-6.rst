@@ -39,3 +39,9 @@ Qatar- 6
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "Qatar- 6"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/Qatar-6.png
+  :width: 650
+  :alt: Qatar-6

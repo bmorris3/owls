@@ -1,8 +1,12 @@
+import os
 import pandas as pd
 from astroquery.ipac.nexsci.nasa_exoplanet_archive import (
     NasaExoplanetArchive, conf
 )
 from tqdm.auto import tqdm
+from astropy.utils.data import download_file
+from zipfile import ZipFile
+
 conf.cache = True
 
 urls = [
@@ -16,6 +20,13 @@ urls = [
 
 df_owls = pd.read_csv(urls[0])
 df_sinds = pd.read_csv(urls[1])
+
+figshare_url = "https://figshare.com/ndownloader/articles/20480538/versions/3"
+figshare_path_tmp = download_file(figshare_url, cache=False)
+figshare_path = 'docs/owls/targets/figshare_pngs'
+
+with ZipFile(figshare_path_tmp, 'r') as zip_ref:
+    zip_ref.extractall(figshare_path)
 
 page = dict()
 
@@ -43,6 +54,10 @@ aladin_lite = """<!-- include Aladin Lite CSS file in the head section of your p
 <script type="text/javascript">
     var aladin = A.aladin('#aladin-lite-div', {{survey: "P/DSS2/color", fov:0.2, target: "{0}"}});
 </script>"""
+
+embed_image = """.. image:: {0}
+  :width: 650
+  :alt: {1}"""
 
 query_aliases = False
 
@@ -75,7 +90,7 @@ for name, group in pbar:
         nea = []
 
     with open(f'docs/owls/targets/{name.replace(" ", "")}.rst', 'w') as f:
-        f.write(name + '\n' + len(name) * '=' + '\n\n')
+        f.write(name.replace('.01', '') + '\n' + len(name.replace('.01', '')) * '=' + '\n\n')
         f.write("`Search exo.mast <https://exo.mast.stsci.edu/exomast_planet.html?planet=" +
                 f"{name.replace(' ', '').replace('-', '').replace('.01', '')}b>`_\n\n")
         f.write("`Search SIMBAD <http://simbad.cds.unistra.fr/simbad/sim-basic?"+
@@ -100,11 +115,21 @@ for name, group in pbar:
 
         f.write(".. raw:: html\n\n")
         f.write('   ' + '\n   '.join(
-            aladin_lite.format(name).splitlines()
+            aladin_lite.format(name.replace('.01', '')).splitlines()
         ) + '\n\n')
+
+        png_path = f'figshare_pngs/{name.replace(".01", "").replace(" ", "")}.png'
+
+        if os.path.exists(png_path):
+            fs_header = 'TESS Light Curve'
+            f.write(fs_header + '\n' + len(fs_header) * '-' + '\n\n')
+
+            f.write(embed_image.format(png_path, name.replace('.01', '').replace(" ", "")))
 
     if not name.replace(" ", "") in targets_page:
         targets_page += f'  targets/{name.replace(" ", "")}.rst\n'
+
+
 
 # Write out targets.rst page
 with open(f'docs/owls/targets.rst', 'w') as f:

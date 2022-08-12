@@ -44,3 +44,9 @@ Kepler-410A
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "Kepler-410A"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/Kepler-410A.png
+  :width: 650
+  :alt: Kepler-410A

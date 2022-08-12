@@ -39,7 +39,7 @@ WASP-90
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>6430</td>
+         <td>6430.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>

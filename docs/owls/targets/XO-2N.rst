@@ -44,7 +44,7 @@ XO-2 N
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>5340</td>
+         <td>5340.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -92,3 +92,9 @@ XO-2 N
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "XO-2 N"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/XO-2N.png
+  :width: 650
+  :alt: XO-2N

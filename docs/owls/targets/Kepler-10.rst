@@ -39,7 +39,7 @@ Kepler-10
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>5627</td>
+         <td>5627.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -87,3 +87,9 @@ Kepler-10
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "Kepler-10"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/Kepler-10.png
+  :width: 650
+  :alt: Kepler-10

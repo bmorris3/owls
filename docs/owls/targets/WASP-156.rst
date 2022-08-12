@@ -39,7 +39,7 @@ WASP-156
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>4910</td>
+         <td>4910.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -87,3 +87,9 @@ WASP-156
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "WASP-156"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/WASP-156.png
+  :width: 650
+  :alt: WASP-156

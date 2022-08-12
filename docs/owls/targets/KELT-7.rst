@@ -44,7 +44,7 @@ KELT-7
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>6768</td>
+         <td>6768.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -92,3 +92,9 @@ KELT-7
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "KELT-7"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/KELT-7.png
+  :width: 650
+  :alt: KELT-7

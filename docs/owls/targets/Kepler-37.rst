@@ -39,7 +39,7 @@ Kepler-37
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>5417</td>
+         <td>5417.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -63,7 +63,7 @@ Kepler-37
        </tr>
        <tr>
          <th>sy_vmag</th>
-         <td>9.77</td>
+         <td>9.770001</td>
        </tr>
        <tr>
          <th>sy_gaiamag</th>
@@ -87,3 +87,9 @@ Kepler-37
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "Kepler-37"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/Kepler-37.png
+  :width: 650
+  :alt: Kepler-37

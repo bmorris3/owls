@@ -39,7 +39,7 @@ Kepler-409
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>5460</td>
+         <td>5460.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -87,3 +87,9 @@ Kepler-409
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "Kepler-409"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/Kepler-409.png
+  :width: 650
+  :alt: Kepler-409

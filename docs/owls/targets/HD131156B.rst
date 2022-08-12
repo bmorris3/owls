@@ -44,3 +44,9 @@ HD 131156 B
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "HD 131156 B"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/HD131156B.png
+  :width: 650
+  :alt: HD131156B

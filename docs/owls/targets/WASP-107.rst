@@ -49,7 +49,7 @@ WASP-107
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>4425</td>
+         <td>4425.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -65,7 +65,7 @@ WASP-107
        </tr>
        <tr>
          <th>st_rotp</th>
-         <td>17</td>
+         <td>17.0</td>
        </tr>
        <tr>
          <th>sy_bmag</th>

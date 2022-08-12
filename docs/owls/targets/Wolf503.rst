@@ -39,7 +39,7 @@ Wolf 503
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>4716</td>
+         <td>4716.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>

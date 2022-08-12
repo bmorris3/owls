@@ -39,7 +39,7 @@ K2-175
      <tbody>
        <tr>
          <th>st_teff</th>
-         <td>5909</td>
+         <td>5909.0</td>
        </tr>
        <tr>
          <th>st_spectype</th>
@@ -87,3 +87,9 @@ K2-175
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "K2-175"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/K2-175.png
+  :width: 650
+  :alt: K2-175

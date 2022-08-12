@@ -39,3 +39,9 @@ HD 100180
        var aladin = A.aladin('#aladin-lite-div', {survey: "P/DSS2/color", fov:0.2, target: "HD 100180"});
    </script>
 
+TESS Light Curve
+----------------
+
+.. image:: figshare_pngs/HD100180.png
+  :width: 650
+  :alt: HD100180
