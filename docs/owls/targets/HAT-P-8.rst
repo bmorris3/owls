@@ -17,9 +17,9 @@ HAT-P-8
      </thead>
      <tbody>
        <tr>
-         <td>11/13/21 5:59 AM</td>
-         <td>0.159387</td>
-         <td>0.006513</td>
+         <td>11/13/21 5:59</td>
+         <td>0.159</td>
+         <td>0.007</td>
        </tr>
      </tbody>
    </table>

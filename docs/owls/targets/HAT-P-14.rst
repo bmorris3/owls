@@ -18,8 +18,8 @@ HAT-P-14
      <tbody>
        <tr>
          <td>6/7/20 6:32 AM</td>
-         <td>0.170551</td>
-         <td>0.00688</td>
+         <td>0.171</td>
+         <td>0.007</td>
        </tr>
      </tbody>
    </table>

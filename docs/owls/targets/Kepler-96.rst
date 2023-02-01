@@ -18,8 +18,8 @@ Kepler-96
      <tbody>
        <tr>
          <td>9/27/20 6:02</td>
-         <td>0.272617</td>
-         <td>0.011657</td>
+         <td>0.273</td>
+         <td>0.012</td>
        </tr>
      </tbody>
    </table>

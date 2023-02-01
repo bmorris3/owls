@@ -17,9 +17,9 @@ GJ 490 A
      </thead>
      <tbody>
        <tr>
-         <td>3/20/2022 8:57:00</td>
-         <td>7.05</td>
-         <td>0.29</td>
+         <td>3/20/22 8:57 AM</td>
+         <td>7.048</td>
+         <td>0.295</td>
        </tr>
      </tbody>
    </table>

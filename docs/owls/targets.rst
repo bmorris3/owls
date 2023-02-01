@@ -3,7 +3,11 @@ Targets
 
 .. toctree::
 
+  targets/1Lac.rst
   targets/55Cnc.rst
+  targets/77Peg.rst
+  targets/8And.rst
+  targets/ACDra.rst
   targets/ADLeo.rst
   targets/CoRoT-7.rst
   targets/DSLeo.rst
@@ -11,6 +15,7 @@ Targets
   targets/EQPeg.rst
   targets/EVLac.rst
   targets/GJ1054A.rst
+  targets/GJ1257.rst
   targets/GJ1284.rst
   targets/GJ140A.rst
   targets/GJ166C.rst
@@ -30,6 +35,7 @@ Targets
   targets/GJ3482.rst
   targets/GJ3522.rst
   targets/GJ362.rst
+  targets/GJ4020.rst
   targets/GJ4337.rst
   targets/GJ487.rst
   targets/GJ490A.rst
@@ -40,6 +46,7 @@ Targets
   targets/GJ849.rst
   targets/GJ876.rst
   targets/GJ897.rst
+  targets/GJ9520.rst
   targets/GJ9552.rst
   targets/GJ9827.rst
   targets/Gl436.rst
@@ -87,6 +94,7 @@ Targets
   targets/HD149661.rst
   targets/HD155885.rst
   targets/HD155886.rst
+  targets/HD160346.rst
   targets/HD165341A.rst
   targets/HD165341B.rst
   targets/HD166620.rst
@@ -102,6 +110,8 @@ Targets
   targets/HD201091.rst
   targets/HD201092.rst
   targets/HD209458.rst
+  targets/HD211029.rst
+  targets/HD211073.rst
   targets/HD217014.rst
   targets/HD219134.rst
   targets/HD219834A.rst
@@ -164,6 +174,7 @@ Targets
   targets/K2-263.rst
   targets/K2-266.rst
   targets/K2-275.rst
+  targets/K2-285.rst
   targets/K2-291.rst
   targets/K2-3.rst
   targets/K2-36.rst
@@ -243,6 +254,8 @@ Targets
   targets/TOI2443.01.rst
   targets/TOI969.01.rst
   targets/TrES-4.rst
+  targets/V1339Cyg.rst
+  targets/V345Peg.rst
   targets/WASP-106.rst
   targets/WASP-107.rst
   targets/WASP-11.rst
@@ -251,6 +264,7 @@ Targets
   targets/WASP-13.rst
   targets/WASP-14.rst
   targets/WASP-156.rst
+  targets/WASP-2.rst
   targets/WASP-35.rst
   targets/WASP-38.rst
   targets/WASP-47.rst
@@ -261,6 +275,7 @@ Targets
   targets/WASP-84.rst
   targets/WASP-90.rst
   targets/WASP-93.rst
+  targets/WASP80.rst
   targets/Wolf503.rst
   targets/XO-1.rst
   targets/XO-2N.rst

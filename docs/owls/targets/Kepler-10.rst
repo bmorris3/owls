@@ -18,8 +18,8 @@ Kepler-10
      <tbody>
        <tr>
          <td>9/29/20 4:15</td>
-         <td>0.243581</td>
-         <td>0.013322</td>
+         <td>0.244</td>
+         <td>0.013</td>
        </tr>
      </tbody>
    </table>

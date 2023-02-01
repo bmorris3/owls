@@ -18,8 +18,8 @@ Kepler-408
      <tbody>
        <tr>
          <td>9/27/20 3:43</td>
-         <td>0.152729</td>
-         <td>0.006093</td>
+         <td>0.153</td>
+         <td>0.006</td>
        </tr>
      </tbody>
    </table>

@@ -17,9 +17,9 @@ WASP-47
      </thead>
      <tbody>
        <tr>
-         <td>8/5/20 9:14</td>
-         <td>0.195577</td>
-         <td>0.010994</td>
+         <td>2020-08-05 9:14:51</td>
+         <td>0.196</td>
+         <td>0.011</td>
        </tr>
      </tbody>
    </table>
@@ -55,7 +55,7 @@ WASP-47
        </tr>
        <tr>
          <th>st_rotp</th>
-         <td>31.2</td>
+         <td>32.5</td>
        </tr>
        <tr>
          <th>sy_bmag</th>

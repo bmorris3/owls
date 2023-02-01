@@ -18,13 +18,13 @@ Qatar-8
      <tbody>
        <tr>
          <td>6/10/20 3:33</td>
-         <td>0.169809</td>
-         <td>0.007748</td>
+         <td>0.170</td>
+         <td>0.008</td>
        </tr>
        <tr>
          <td>1/10/22 12:20</td>
-         <td>0.189212</td>
-         <td>0.009556</td>
+         <td>0.189</td>
+         <td>0.010</td>
        </tr>
      </tbody>
    </table>
@@ -52,7 +52,7 @@ Qatar-8
        </tr>
        <tr>
          <th>st_rad</th>
-         <td>1.31</td>
+         <td>1.32</td>
        </tr>
        <tr>
          <th>st_mass</th>

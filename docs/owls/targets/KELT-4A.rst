@@ -18,8 +18,8 @@ KELT-4A
      <tbody>
        <tr>
          <td>1/10/22 11:15</td>
-         <td>0.160362</td>
-         <td>0.006579</td>
+         <td>0.16</td>
+         <td>0.007</td>
        </tr>
      </tbody>
    </table>

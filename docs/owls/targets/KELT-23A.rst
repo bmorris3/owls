@@ -18,8 +18,8 @@ KELT-23A
      <tbody>
        <tr>
          <td>9/29/20 3:07</td>
-         <td>0.155778</td>
-         <td>0.00899</td>
+         <td>0.156</td>
+         <td>0.009</td>
        </tr>
      </tbody>
    </table>

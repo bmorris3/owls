@@ -17,9 +17,9 @@ GJ 234A
      </thead>
      <tbody>
        <tr>
-         <td>1/18/2022 4:36:00</td>
-         <td>0.48</td>
-         <td>0.02</td>
+         <td>1/18/22 4:36</td>
+         <td>0.475</td>
+         <td>0.024</td>
        </tr>
      </tbody>
    </table>

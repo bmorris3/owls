@@ -17,9 +17,9 @@ HD 100180
      </thead>
      <tbody>
        <tr>
-         <td>2/16/22 8:01 AM</td>
-         <td>0.18785</td>
-         <td>0.007478</td>
+         <td>2/16/22 8:01</td>
+         <td>0.188</td>
+         <td>0.007</td>
        </tr>
      </tbody>
    </table>

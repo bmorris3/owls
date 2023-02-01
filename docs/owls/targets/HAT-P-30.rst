@@ -17,9 +17,9 @@ HAT-P-30
      </thead>
      <tbody>
        <tr>
-         <td>1/12/22 8:39 AM</td>
-         <td>0.163847</td>
-         <td>0.006727</td>
+         <td>1/12/22 8:39</td>
+         <td>0.164</td>
+         <td>0.007</td>
        </tr>
      </tbody>
    </table>

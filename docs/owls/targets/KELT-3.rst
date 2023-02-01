@@ -18,8 +18,8 @@ KELT-3
      <tbody>
        <tr>
          <td>2/11/22 8:26</td>
-         <td>0.17318</td>
-         <td>0.006921</td>
+         <td>0.173</td>
+         <td>0.007</td>
        </tr>
      </tbody>
    </table>

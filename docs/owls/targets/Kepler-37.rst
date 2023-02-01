@@ -18,8 +18,8 @@ Kepler-37
      <tbody>
        <tr>
          <td>9/27/20 3:14</td>
-         <td>0.21705</td>
-         <td>0.008754</td>
+         <td>0.217</td>
+         <td>0.009</td>
        </tr>
      </tbody>
    </table>

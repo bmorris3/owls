@@ -17,9 +17,9 @@ EQ Peg
      </thead>
      <tbody>
        <tr>
-         <td>10/11/2021 7:37:00</td>
-         <td>12.06</td>
-         <td>0.5</td>
+         <td>10/11/2021 7:37:21</td>
+         <td>12.059</td>
+         <td>0.502</td>
        </tr>
      </tbody>
    </table>

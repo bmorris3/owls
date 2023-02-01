@@ -17,9 +17,9 @@ TrES-4
      </thead>
      <tbody>
        <tr>
-         <td>6/7/20 6:59</td>
-         <td>0.150159</td>
-         <td>0.00748</td>
+         <td>2020-06-07 6:59:18</td>
+         <td>0.15</td>
+         <td>0.007</td>
        </tr>
      </tbody>
    </table>

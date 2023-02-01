@@ -18,8 +18,8 @@ HAT-P-16
      <tbody>
        <tr>
          <td>10/2/20 9:10 AM</td>
-         <td>0.16718</td>
-         <td>0.006951</td>
+         <td>0.167</td>
+         <td>0.007</td>
        </tr>
      </tbody>
    </table>

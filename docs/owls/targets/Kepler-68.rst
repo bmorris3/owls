@@ -18,8 +18,8 @@ Kepler-68
      <tbody>
        <tr>
          <td>9/27/20 4:47</td>
-         <td>0.155895</td>
-         <td>0.006367</td>
+         <td>0.156</td>
+         <td>0.006</td>
        </tr>
      </tbody>
    </table>

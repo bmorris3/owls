@@ -15,3 +15,6 @@ prune docs/_build
 prune docs/api
 
 global-exclude *.pyc *.o
+
+exclude build_target_pages.py
+exclude capture_archive.py

@@ -18,8 +18,8 @@ Kepler-21
      <tbody>
        <tr>
          <td>7/6/20 10:59</td>
-         <td>0.208866</td>
-         <td>0.012426</td>
+         <td>0.209</td>
+         <td>0.012</td>
        </tr>
      </tbody>
    </table>

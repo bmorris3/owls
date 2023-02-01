@@ -18,8 +18,8 @@ GJ 9552
      <tbody>
        <tr>
          <td>4/12/22 9:22 AM</td>
-         <td>7.284302</td>
-         <td>0.303867</td>
+         <td>7.284</td>
+         <td>0.304</td>
        </tr>
      </tbody>
    </table>

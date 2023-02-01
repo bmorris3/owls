@@ -18,8 +18,8 @@ KELT-24
      <tbody>
        <tr>
          <td>6/10/20 3:58</td>
-         <td>0.191759</td>
-         <td>0.00767</td>
+         <td>0.192</td>
+         <td>0.008</td>
        </tr>
      </tbody>
    </table>

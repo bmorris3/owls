@@ -17,9 +17,14 @@ GJ 581
      </thead>
      <tbody>
        <tr>
-         <td>5/29/2021 9:00:00</td>
-         <td>0.76</td>
-         <td>0.05</td>
+         <td>5/29/21 9:00 AM</td>
+         <td>0.756</td>
+         <td>0.046</td>
+       </tr>
+       <tr>
+         <td>5/22/22 7:55 AM</td>
+         <td>0.707</td>
+         <td>0.069</td>
        </tr>
      </tbody>
    </table>

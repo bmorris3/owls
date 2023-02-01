@@ -18,8 +18,8 @@ GJ 897
      <tbody>
        <tr>
          <td>11/13/21 3:52 AM</td>
-         <td>9.368187</td>
-         <td>0.396911</td>
+         <td>9.368</td>
+         <td>0.397</td>
        </tr>
      </tbody>
    </table>
