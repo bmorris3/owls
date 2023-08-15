@@ -10,7 +10,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'owls'
-copyright = '2021, Brett M. Morris'
+copyright = '2023, Brett M. Morris'
 author = 'Brett M. Morris'
 
 # The full version, including alpha/beta/rc tags
