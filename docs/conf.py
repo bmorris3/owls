@@ -34,7 +34,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx_automodapi.automodapi',
     'sphinx_automodapi.smart_resolver',
-    'altair.sphinxext.altairplot'
+    'sphinxext_altair.altairplot'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -55,7 +55,7 @@ master_doc = 'index'
 # -- Options for intersphinx extension ---------------------------------------
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+# intersphinx_mapping = {'https://docs.python.org/': None}
 
 # -- Options for HTML output -------------------------------------------------
 
