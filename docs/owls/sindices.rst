@@ -33,7 +33,7 @@ Click a measurement below to find more information about the target.
     )
 
     highlight = alt.selection_single(on='click', fields=['Target'],
-        init=dict(Target=False), bind=input_dropdown
+        bind=input_dropdown  # init=dict(Target=False)
     )
 
     # the base chart
